@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# License: LGPL
 
 import random, math, pygame
 from pygame.locals import *
