@@ -10,10 +10,12 @@ Typing in Programs
 ------------------
 
 When you are typing these programs, be careful to write them exactly as they are written.
-This includes things like whether you have a small letter ``b`` or a capital ``B``,
-and the punctuation marks like ``!@#$%^&*()``
-which are a very important part of the program
-that need to go in the right place too!
-In Python, having the right number of spaces at the start of the line is very important
-so make sure you copy them carefully.
+This includes: 
+
+ * whether you have a small letter ``b`` or a capital ``B``
+ * the punctuation marks like ``+ - * / % < > & | ^ ~ = ! ( ) [ ] { } @ , : . ` ; ' " # \``
+ * the number of spaces at the start of each line -
+   make sure your line startings line up just like they do in the printed version!
+
+So if you have trouble running your programs, check that you have typed them exactly correctly.
 
