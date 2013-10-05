@@ -14,4 +14,5 @@ Contents:
    introduction
    secretcodes
    stars
+   README
 
