@@ -1,5 +1,5 @@
-ClipBit Documentation and Code Licensing
-========================================
+License of ClipBit Documentation and Code
+=========================================
 
 Copyright (c) 2013 David Fraser
 

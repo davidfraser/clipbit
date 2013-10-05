@@ -30,7 +30,7 @@ Licensing
 
 |ccbysaza|
 
-clipbit documentation is licensed under a `Creative Commons Attribution-ShareAlike 2.5 South Africa License <http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB>`_, and clipbit code (outside of the training material) is licensed under the MIT license. For more information, see the LICENSE file in this directory.
+clipbit documentation is licensed under a `Creative Commons Attribution-ShareAlike 2.5 South Africa License <http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB>`_, and clipbit code (outside of the training material) is licensed under the MIT license. For more information, see the :doc:`LICENSE.rst <LICENSE>` file in this directory.
 
 .. |ccbysaza| image:: http://i.creativecommons.org/l/by-sa/2.5/za/88x31.png
    :alt: Creative Commons License
