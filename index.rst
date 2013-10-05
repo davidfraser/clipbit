@@ -13,4 +13,5 @@ Contents:
 
    introduction
    secretcodes
+   stars
 
