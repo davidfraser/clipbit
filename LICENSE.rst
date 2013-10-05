@@ -1,20 +1,23 @@
-Documentation and Code Licensing
-================================
+ClipBit Documentation and Code Licensing
+========================================
 
 Copyright (c) 2013 David Fraser
 
 Documentation in this file, including code directly included in it
-(for example, a .rst file and the code therein) is under the
+(for example, a ``.rst`` file and the code therein) is under the
 Creative Commons Attribution-ShareAlike 2.5 South Africa License.
 
 Code included in this project that is *not* inside a documentation file
-(for example, a .py file) is under the MIT license, reproduced below.
+(for example, a ``.py`` file) is under the MIT license, reproduced below,
+unless explicitly mentioned in the title. This is usually because the
+example is sourced from another project, and has been licensed there.
+Such sources are listed in ``sources.txt``.
 
 Creative Commons Attribution-ShareAlike 2.5 South Africa License
 ----------------------------------------------------------------
 
 To view a copy of this license, visit 
-[http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB](http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB).
+http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB
 
 This is a human-readable summary of the Legal Code (the full licence).
  
@@ -34,9 +37,11 @@ With the understanding that:
 * Waiver — Any of the above conditions can be waived if you get permission from the copyright holder.
 * Public Domain — Where the work or any of its elements is in the public domain under applicable law, that status is in no way affected by the licence.
 * Other Rights — In no way are any of the following rights affected by the licence:
+
  - Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;
  - The author's moral rights;
  - Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.
+
 * Notice — For any reuse or distribution, you must make clear to others the licence terms of this work.
 
 The MIT License (MIT)

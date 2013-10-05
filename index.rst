@@ -15,4 +15,5 @@ Contents:
    secretcodes
    stars
    README
+   LICENSE
 
