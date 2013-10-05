@@ -1,7 +1,7 @@
 clipbit
 =======
 
-*Children Learn Intuitive Programming By Inconvenient Typing*
+*Children Learn Intuitive Programming By Interesting Typing*
 
 Background
 ----------
@@ -23,6 +23,7 @@ The programs should be:
 * As simple to type as possible (i.e. lean towards short variable/function names)
 * Fun for children to interact with
 * Ideally good examples of logically structured programs
+* Possible to change in small, incremental, yet interesting ways
 
 Licensing
 ---------
