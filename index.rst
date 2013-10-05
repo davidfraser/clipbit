@@ -14,6 +14,3 @@ Contents:
    introduction
    secretcodes
 
-* :ref:`genindex`
-* :ref:`search`
-
