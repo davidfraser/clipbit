@@ -24,3 +24,7 @@ The programs should be:
 * Fun for children to interact with
 * Ideally good examples of logically structured programs
 
+Licensing
+---------
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/za/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">clipbit</span> documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/za/deed.en_GB">Creative Commons Attribution-ShareAlike 2.5 South Africa License</a>, and clipbit code (outside of the training material) is licensed under the MIT license. For more information, see the LICENSE file in this directory.
