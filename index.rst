@@ -6,14 +6,11 @@
 Welcome to clipbit!
 ===================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
    introduction
-   secretcodes
-   stars
+   programs
    README
    LICENSE
 
