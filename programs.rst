@@ -5,5 +5,6 @@ ClipBit Programs
    :maxdepth: 2
 
    secretcodes
+   snake
    stars
 
