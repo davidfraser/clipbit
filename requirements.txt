@@ -1,1 +1,4 @@
-sphinx
+Sphinx < 2.0.0
+flake8 < 3.0.0
+unittest2 < 1.0.0
+
