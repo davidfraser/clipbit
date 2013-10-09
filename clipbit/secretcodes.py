@@ -44,7 +44,10 @@ def secret():
 
 def main():
    code = secret()
-   print(code) 
+   print('Now, you can give your friend the encoded message: %s', code)
+   print('All they need to decode it is the number you entered above')
+   print('And this program :)')
+
 
 if __name__ == '__main__':
     code = secret()
