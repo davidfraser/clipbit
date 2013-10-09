@@ -1,6 +1,7 @@
 def off(c):
     if c.isalpha():
         return (ord(c) - ord('A') if c.isupper() else ord(c) - ord('a'))
+ask = raw_input
     else:
         return None
 
@@ -18,8 +19,6 @@ def decode(message, number):
     return rot(message, -number)
 
 
-def ask(question):
-    return raw_input(question)
 
 
 def secret():
