@@ -10,8 +10,6 @@ to_str = chr
 def shift(i, n):
     return 0 if i is None else ((i + n + 26) % 26 - i)
 
-def rot(s, n):
-    return "".join(chr(ord(c) + shift(off(c), n)) for c in s)
 
 def encode(message, number):
     return rot(message, number)
@@ -19,6 +17,11 @@ def encode(message, number):
 
 def decode(message, number):
     return rot(message, -number)
+def rotate(message, num):
+    return ''.join(
+        to_str(to_num(char) + shift(offset(char), num)) for char in message
+    )
+
 
 
 
