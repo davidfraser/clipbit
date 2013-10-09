@@ -1,11 +1,9 @@
 ask = raw_input
-to_num = ord
-to_str = chr
 
 
 def offset(c):
     if c.isalpha():
-        return (to_num(c) - to_num('A') if c.isupper() else to_num(c) - to_num('a'))
+        return (ord(c) - ord('A') if c.isupper() else ord(c) - ord('a'))
     else:
         return None
 
@@ -16,7 +14,7 @@ def shift(i, n):
 
 def rotate(message, num):
     return ''.join(
-        to_str(to_num(char) + shift(offset(char), num)) for char in message
+        chr(ord(char) + shift(offset(char), num)) for char in message
     )
 
 
