@@ -1,11 +1,14 @@
-def off(c):
-    if c.isalpha():
-        return (ord(c) - ord('A') if c.isupper() else ord(c) - ord('a'))
 ask = raw_input
 to_num = ord
 to_str = chr
+
+
+def offset(c):
+    if c.isalpha():
+        return (to_num(c) - to_num('A') if c.isupper() else to_num(c) - to_num('a'))
     else:
         return None
+
 
 def shift(i, n):
     return 0 if i is None else ((i + n + 26) % 26 - i)
