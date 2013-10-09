@@ -10,10 +10,15 @@ def shift(i, n):
 def rot(s, n):
     return "".join(chr(ord(c) + shift(off(c), n)) for c in s)
 
-def secret():   
-    v = raw_input("Enter your message: ")
-    k = int(raw_input("Enter a number: "))
     print rot(v, k)
+def ask(question):
+    return raw_input(question)
+
+
+def secret():
+    message = ask('Enter your message: ')
+    number = int(ask('Enter a number: '))
+
 
 def main():
    code = secret()
