@@ -31,8 +31,8 @@ def secret():
 
 def main():
    code = secret()
-   print('Now, you can give your friend the encoded message: %s', code)
-   print('All they need to decode it is the number you entered above')
+   print('Now, you can give your friend the encoded message: %s' % code)
+   print('All they need to decode it, is the number you entered above')
    print('And this program :)')
 
 
