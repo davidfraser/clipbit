@@ -15,5 +15,10 @@ def secret():
     k = int(raw_input("Enter a number: "))
     print rot(v, k)
 
-secret()
+def main():
+   code = secret()
+   print(code) 
 
+if __name__ == '__main__':
+    code = secret()
+    print(code)
