@@ -24,7 +24,14 @@ def shift(i, n):
 def rot(s, n):
     return "".join(chr(ord(c) + shift(off(c), n)) for c in s)
 
-    print rot(v, k)
+def encode(message, number):
+    return rot(message, number)
+
+
+def decode(message, number):
+    return rot(message, -number)
+
+
 def ask(question):
     return raw_input(question)
 
@@ -32,6 +39,7 @@ def ask(question):
 def secret():
     message = ask('Enter your message: ')
     number = int(ask('Enter a number: '))
+    return encode(message, number)
 
 
 def main():
