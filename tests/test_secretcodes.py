@@ -7,5 +7,11 @@ class RotTestCase(TestCase):
     def test_rot(self):
         self.assertEquals(
             'ifmmp', 
-            secretcodes.rot('hello', 1)
+            secretcodes.encode('hello', 1)
+        )
+
+    def test_rot_decode(self):
+        self.assertEquals(
+            'hello',
+            secretcodes.decode('ifmmp', 1)
         )
