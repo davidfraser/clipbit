@@ -2,6 +2,8 @@ def off(c):
     if c.isalpha():
         return (ord(c) - ord('A') if c.isupper() else ord(c) - ord('a'))
 ask = raw_input
+to_num = ord
+to_str = chr
     else:
         return None
 
