@@ -5,12 +5,6 @@ from clipbit import secretcodes
 
 class SecretCodesTestCase(TestCase):
 
-    def test_shift(self):
-        self.assertEquals(
-            '',
-            secretcodes.shift(1,2,3)
-        )
-
     def test_encode(self):
         self.assertEquals(
             'ifmmp', 
