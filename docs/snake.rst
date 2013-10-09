@@ -7,6 +7,6 @@ If you eat one of the other blocks, you get longer...
 
 *This program requires* ``pygame``.
 
-.. literalinclude:: snake.py
+.. literalinclude:: ../clipbit/snake.py
 
 

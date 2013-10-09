@@ -1,0 +1,2 @@
+clipbit.stars https://bitbucket.org/pygame/pygame/raw/default/examples/stars.py
+clipbit.snake http://sites.google.com/site/pyscripter94/snake.py

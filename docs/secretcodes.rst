@@ -9,6 +9,6 @@ You will then receive a secret code for that message!
 To decode the message, you need to put in the secret code you got out,
 and then make the number a *minus* the first number you put in (like ``-3``).
 
-.. literalinclude:: secretcodes.py
+.. literalinclude:: ../clipbit/secretcodes.py
 
 

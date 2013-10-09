@@ -9,5 +9,5 @@ and the stars will start coming from there.
 
 *This program requires* ``pygame``.
 
-.. literalinclude:: stars.py
+.. literalinclude:: ../clipbit/stars.py
 
