@@ -7,7 +7,7 @@ travelling at an incredible speed through a galaxy of stars!
 You can also click on a part of the screen
 and the stars will start coming from there.
 
-*This program requires* ``pygame``.
+*This program requires* `pygame <http://pygame.org/install.html/>`_.
 
 .. literalinclude:: ../clipbit/stars.py
 
