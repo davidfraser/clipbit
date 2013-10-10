@@ -7,12 +7,12 @@ class SecretCodesTestCase(TestCase):
 
     def test_encode(self):
         self.assertEquals(
-            'ifmmp', 
+            'gfkkp', 
             secretcodes.encode('hello', 1)
         )
-
-    def test_decode(self):
+        code = secretcodes.encode('hello', 999999999)
         self.assertEquals(
             'hello',
-            secretcodes.decode('ifmmp', 1)
+            secretcodes.encode(code, 999999999)
         )
+

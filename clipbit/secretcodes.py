@@ -1,39 +1,29 @@
 ask = raw_input
 
 
-def offset(c):
-    if c.isalpha():
-        return (ord(c) - ord('A') if c.isupper() else ord(c) - ord('a'))
-    else:
-        return None
+def make_map(i):
+    d = {}
+    letters = list("abcdefghijklmnopqrstuvwxyz")
+    for p in range(25,0,-2):
+        k = letters.pop(0)
+        i, r = divmod(i, p)
+        v = d[k] = letters.pop(r)
+        d[v] = k
+        V, K = v.upper(), k.upper()
+        d[K] = V
+        d[V] = K
+    return d
 
 
-def shift(i, n):
-    return 0 if i is None else ((i + n + 26) % 26 - i)
-
-
-def rotate(message, num):
-    return ''.join(
-        chr(ord(char) + shift(offset(char), num)) for char in message
-    )
-
-
-def encode(message, number):
-    return rotate(message, number)
-
-
-def decode(message, number):
-    return rotate(message, -number)
-
-
-def secret():
-    message = ask('Enter your message: ')
-    number = int(ask('Enter a number: '))
-    return encode(message, number)
+def encode(message, n):
+    d = make_map(n)
+    return ''.join(d.get(c, c) for c in message)
 
 
 def main():
-    code = secret()
+    message = ask('Enter your message: ')
+    number = int(ask('Enter a number: '))
+    code = encode(message, number)
     print('Now, you can give your friend the encoded message: %s' % code)
     print('All they need to decode it, is the number you entered above')
     print('And this program :)')
@@ -41,3 +31,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
